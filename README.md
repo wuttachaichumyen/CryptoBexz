@@ -1,3 +1,38 @@
+# AI Crypto Trading Dashboard
+
+A modern, responsive, and sleek AI-powered cryptocurrency trading dashboard built with Next.js, React, and Tailwind CSS. This project features a dark-themed UI designed for professional traders, providing market intelligence, portfolio tracking, and automated strategy building tools.
+
+## 🚀 Features
+
+- **Dashboard**: Overview of account balance, performance charts, and recent activities.
+- **Market Intelligence**: Real-time AI analysis, market sentiment, and top-performing assets.
+- **Portfolio Intelligence**: AI-powered risk analysis and smart allocation optimization (Coming Soon).
+- **Strategy Lab**: Custom AI strategy builder and backtesting engine (Pro Feature).
+- **Settings**: User profile management, theme toggling, currency, and language preferences.
+- **Responsive Design**: Fully optimized for desktop and mobile devices.
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Library**: [React](https://reactjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## 📂 Project Structure
+
+```text
+├── app/
+│   ├── dashboard/       # Main overview dashboard
+│   ├── market/          # Market intelligence page
+│   ├── portfolio/       # Portfolio intelligence (Coming soon UI)
+│   ├── strategy-lab/    # Strategy builder (Premium feature UI)
+│   ├── settings/        # User settings and preferences
+│   ├── layout.tsx       # Global layout containing the Sidebar/Navbar
+│   └── page.tsx         # Landing page / Redirect to dashboard
+├── public/              # Static assets (images, icons)
+├── tailwind.config.ts   # Tailwind CSS configuration
+└── package.json         # Project dependencies
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
